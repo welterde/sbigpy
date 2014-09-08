@@ -1092,16 +1092,7 @@ typedef struct
 	unsigned short /* CAMERA_TYPE */ cameraType;
 	char name[64];
 	unsigned short readoutModes;
-	struct 
-	{
-		unsigned short mode;
-		unsigned short width;
-		unsigned short height;
-		unsigned short gain;
-		unsigned long pixelWidth;
-		unsigned long pixelHeight;
-	} 
-	readoutInfo[20];
+	READOUT_INFO readoutInfo[20];
 } 
 GetCCDInfoResults0;
 
