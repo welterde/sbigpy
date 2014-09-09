@@ -3,7 +3,7 @@
 %include "carrays.i"
 %include "cdata.i"
 
-%array_class(int, intArray);
+%array_class(char, charArray);
 
 %{
 #include "sbigudrv.h"
